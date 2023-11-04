@@ -7,8 +7,8 @@ pipeline {
     }
 */
     environment {
-        registry: '154114/vprofile-app'  //dockerhub username/repo-name
-        registryCredential: 'dockerhub' // the credential we added for our docker in jenkins configure credentials page
+        registry = '154114/vprofile-app'  //dockerhub username/repo-name
+        registryCredential = 'dockerhub' // the credential we added for our docker in jenkins configure credentials page
     }
 
     stages{
